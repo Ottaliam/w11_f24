@@ -106,7 +106,7 @@
 
         function displayInformation() {
           // Step 6: Update the three span elements using ONLY JavaScript
-          document.querySelector('#URL').textContent = window.location.pathname;
+          document.querySelector('#URL').textContent = window.location.href;
           document.querySelector('#items').textContent = document.querySelectorAll('li').length.toString();
           document.querySelector('#time').textContent = new Date().toLocaleString();
         }
